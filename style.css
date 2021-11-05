@@ -7,3 +7,17 @@ body {
     top: 0px;
     display: block;
 }
+
+.lado-esquerdo {
+    position: absolute;
+    top: 1100px;
+    right: 680px;
+    text-align: justify;
+}
+
+.lado-direito {
+    position: absolute;
+    top: 1100px;
+    left: 680px;
+    text-align: justify;
+}
