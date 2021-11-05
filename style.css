@@ -11,13 +11,21 @@ body {
 .lado-esquerdo {
     position: absolute;
     top: 1100px;
-    right: 680px;
+    right: 700px;
     text-align: justify;
+    font-family: monospace;
+    font-size: 12px;
+    color: darkblue;
+    line-height: 20px;
 }
 
 .lado-direito {
     position: absolute;
     top: 1100px;
-    left: 680px;
+    left: 700px;
     text-align: justify;
+    font-family: monospace;
+    font-size: 12px;
+    color: dimgrey;
+    line-height: 20px;
 }
