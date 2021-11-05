@@ -32,3 +32,15 @@ body {
     color: dimgrey;
     line-height: 20px;
 }
+
+section {
+    background-color: lightblue;
+    width: 500px;
+    height: 400px;
+    padding-left: 200px;
+    padding-right: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 30px;
+}
