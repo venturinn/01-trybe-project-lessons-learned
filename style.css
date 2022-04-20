@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(213, 208, 202);
 }
 
 #cabecalho {
@@ -13,8 +13,9 @@ body {
 
 .lado-esquerdo {
     position: absolute;
-    top: 1100px;
-    right: 700px;
+    top: 200px;
+    left: 700px;
+    right: 200px;
     text-align: justify;
     font-family: monospace;
     font-size: 12px;
@@ -24,23 +25,63 @@ body {
 
 .lado-direito {
     position: absolute;
-    top: 1100px;
+    top: 400px;
     left: 700px;
+    right: 200px;
     text-align: justify;
     font-family: monospace;
     font-size: 12px;
-    color: dimgrey;
+    color: darkblue;
     line-height: 20px;
 }
 
-section {
-    background-color: lightblue;
-    width: 500px;
-    height: 400px;
-    padding-left: 200px;
+#Section_01 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    padding-left: 100px;
     padding-right: 100px;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     margin-top: 30px;
+    right: 600px;
+    left: 100px;
+}
+
+#Section_02 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 30px;
+    left: 700px;
+    right: 100px;
+}
+
+#minha_foto {
+    display: block;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer {
+    position: absolute;
+    top: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    display: inline-block;
+    position: relative;
+    top: 450px;
+    border: blueviolet solid 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
